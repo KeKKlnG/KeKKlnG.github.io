@@ -2984,7 +2984,7 @@ video {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  position: fixed;
+  position: absolute;
   top: 35px;
   right: 56px;
 }
@@ -2997,7 +2997,7 @@ video {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  position: fixed;
+  position: absolute;
   top: 35px;
   right: 210px;
 }
@@ -3012,13 +3012,13 @@ video {
   width: 1400px;
   color: #000;
   font-family: Inter;
-  font-size: 45px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   text-align: center;
   position: fixed;
-  top: 45%;
+  top: 47%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -3053,7 +3053,7 @@ video {
   justify-content: center;
   color: #e6e6e6bf;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -3088,36 +3088,3 @@ video {
 .zaglushka {
   color: #ECE6E6;
 }
-
-
-
-
-/* .gradient-background {
-  background: linear-gradient(-40deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
-  height: 100vh;
-}
-
-@media screen and (max-width: 640px) {
-  .gradient-background {
-    background: linear-gradient(20deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    animation: gradient 0s ease infinite;
-    height: 100vh;
-  }
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-
-  50% {
-    background-position: 100% 50%;
-  }
-
-  100% {
-    background-position: 0% 50%;
-  }
-} */
